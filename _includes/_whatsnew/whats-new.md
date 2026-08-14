@@ -181,6 +181,7 @@ To receive this listing via monthly email newsletter, along with announcements a
 
 ## June 2026
 ### Announcements:
+
 <div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
 <strong style="font-size: 1.2em;">See You at EAS 2026!</strong><br>
 <p>SciX is excited to exhibit at the European Astronomical Society Annual Meeting 2026, June 28-July 3 in Lausanne, Switzerland. Visit our booth to explore the SciX platform, see new features in action, and chat with our team about tools that help make scientific research more discoverable and accessible. Whether you're a longtime user or just learning about SciX, we'd love to meet you and hear about your research needs.</p>
@@ -272,6 +273,7 @@ To receive this listing via monthly email newsletter, along with announcements a
 
 ## May 2026
 ### Announcements:
+
 <div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
 <strong style="font-size: 1.2em;">SciX at EGU General Assembly 2026</strong><br>
 <p>The SciX team is on the ground in Vienna this week for EGU26, and we’d love to connect! Stop by <strong>Booth X223 (downstairs)</strong> to meet the team, explore what we’ve been working on, and chat about how SciX supports your research.</p>
@@ -329,7 +331,7 @@ To receive this listing via monthly email newsletter, along with announcements a
 
 <div style="border: 1px solid #cbbc4c; border-left: 6px solid #cbbc4c; border-radius: 10px; padding: 16px; margin: 20px 0; ">
 <strong style="font-size: 1.2em;">Dr. Anna Kelbert of SciX Publishes Stunning Images of Earth’s Structure in North America</strong><br>
-<p>Our own Project Scientist for Earth Science, <a href="{% if include.ads %}../../about/team/team/akelbert.html{% else %}../../scixabout/team/team/akelbert.html{% endif %}">Dr. Anna Kelbert</a>, is the lead author of a paper that has been making waves this week! The work was recently featured in press releases from the <a href="https://www.cfa.harvard.edu/news/scientists-map-hidden-electrical-structure-us-revealing-new-clues-about-earths-interior-and">Harvard-Smithsonian Center for Astrophysics</a>, <a href="https://www.science.org/content/article/deep-earth-map-reveals-lost-u-s-continent">Science</a>, and <a href="https://www.usgs.gov/programs/geomagnetism/science/mapping-grid-united-states-magnetotelluric-array">USGS</a>.</p>
+<p>Our own Project Scientist for Earth Science, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/akelbert.html">Dr. Anna Kelbert</a>, is the lead author of a paper that has been making waves this week! The work was recently featured in press releases from the <a href="https://www.cfa.harvard.edu/news/scientists-map-hidden-electrical-structure-us-revealing-new-clues-about-earths-interior-and">Harvard-Smithsonian Center for Astrophysics</a>, <a href="https://www.science.org/content/article/deep-earth-map-reveals-lost-u-s-continent">Science</a>, and <a href="https://www.usgs.gov/programs/geomagnetism/science/mapping-grid-united-states-magnetotelluric-array">USGS</a>.</p>
 
 <p>By mapping electrical conductivity of the Earth’s crust and upper mantle across the continental United States, the team discovered that the Appalachian Mountains and the mid-continent sit on ancient continental fragments left over from long-vanished tectonic collisions. This research supports important Earth science applications, including the United States’ capability to mitigate natural geomagnetic hazards that can disrupt the power grids we rely on. The paper reminds us that the ground beneath our feet is anything but simple. What looks like stable, familiar geology is actually a result of complicated dynamics, a stitched-together patchwork of Earth’s deep-time history with direct relevance to our technological present and future. <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024RG000850">Read the open access paper to learn more</a>!</p>
 <img src="{{site.baseurl}}/help/img/whatsnew/WN2605-usgeomap.jpg" 
@@ -382,44 +384,60 @@ To receive this listing via monthly email newsletter, along with announcements a
 </details>
 
 ## April 2026
-Announcements:<br>
-* **Recent Workshop Highlight: Language AI in the Space Sciences**<br>
-Several ADS and SciX team members participated in the [Language AI in Space Sciences Workshop](https://www.stsci.edu/contents/events/stsci/2026/march/language-ai-in-the-space-sciences#event-materials), which was held on March 9-12 in Baltimore, MD. Organized by the Space Telescope Science Institute (STScI), the European Space Agency (ESA), and the Astrophysics Data System (ADS), this unique, interdisciplinary gathering brought together astronomy researchers, AI and natural language processing (NLP) specialists, software engineers, and domain experts. Unlike traditional scientific conferences, the event was heavily focused on hands-on exploration, open discussions, and collaborative projects, allowing participants substantial unstructured time to experiment with emerging tools and methods. The workshop offered a highly interactive environment that fostered creativity and innovation, including tutorials, discussions, and hackathons. Contributions by the ADS team included a discussion on licensing and property rights by [Alberto Accomazzi](../../about/team/team/aaccomazzi), a tutorial on Retrieval-Augmented Generation by [Atilla Alkan](../../about/team/team/aalkan), and a presentation on Multilabel Text Classification for Concept Assignment in Astrophysics Literature also by [Atilla Alkan](../../about/team/team/aalkan). Recordings of the workshop’s presentations are available at on [Youtube](https://www.youtube.com/playlist?list=PLaMFBSsW8QxAooMVyQS4TOwoGKWnSpuF3).<br>
+### Announcements:
+
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Recent Workshop Highlight: Language AI in the Space Sciences</strong><br>
+<p>Several ADS and SciX team members participated in the <a href="https://www.stsci.edu/contents/events/stsci/2026/march/language-ai-in-the-space-sciences#event-materials">Language AI in Space Sciences Workshop</a>, which was held on March 9-12 in Baltimore, MD. Organized by the Space Telescope Science Institute (STScI), the European Space Agency (ESA), and the Astrophysics Data System (ADS), this unique, interdisciplinary gathering brought together astronomy researchers, AI and natural language processing (NLP) specialists, software engineers, and domain experts. Unlike traditional scientific conferences, the event was heavily focused on hands-on exploration, open discussions, and collaborative projects, allowing participants substantial unstructured time to experiment with emerging tools and methods. The workshop offered a highly interactive environment that fostered creativity and innovation, including tutorials, discussions, and hackathons. Contributions by the ADS team included a discussion on licensing and property rights by <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aaccomazzi.html">Alberto Accomazzi</a>, a tutorial on Retrieval-Augmented Generation by <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aalkan.html">Atilla Alkan</a>, and a presentation on Multilabel Text Classification for Concept Assignment in Astrophysics Literature also by <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aalkan.html">Atilla Alkan</a>. Recordings of the workshop’s presentations are available at on <a href="https://www.youtube.com/playlist?list=PLaMFBSsW8QxAooMVyQS4TOwoGKWnSpuF3">Youtube</a>.</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2604-AISS-wkshp.png" 
 	 alt="Language AI in the Space Sciences Workshop" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 600px;">
+</div>
 
-* **Sharing the Science Explorer at APS Global Physics Summit 2026 Recap**<br>
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Sharing the Science Explorer at APS Global Physics Summit 2026 Recap</strong><br>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2604-scixataps2026.png" 
 	 alt="SciX at APS 2026" 
 	 class="img-responsive"
 	 style="float: right; margin: 0 0 1em 1em; width: 300px;">
-Project Scientist for Astrophysics [Jennifer Lynn Bartlett](../../about/team/team/jbartlett) was thrilled to spend a week in the mile-high city talking to physicists with a broad range of interests about how they can find what they are looking for in the SciX. As Glen Bennett, Swastika Acharjee, [Naaz Shafeer Vemmerath Kulangara](https://naazshafeer.github.io/), and [Liz Kruesi](https://www.lizkruesi.com/) discovered, the SciX [physics collection](https://www.scixplorer.org/search?p=1&q=collection%3Aphysics&sort=score+desc&sort=date+desc&d=general) is extensive, easy to navigate, and free; we welcome new researchers and independent scholars. Read more about it in our [blog post](../../scixblog/aps26) and please reach out if you have questions about the ADS to SciX transition or about accessing physics content effectively. Many thanks to the [NASA Physics of the Cosmos](https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/about/) team, especially Chief Scientist [Brian Humensky](https://www.linkedin.com/in/brian-humensky/) and public outreach specialist [Stephanie Clark](https://science.nasa.gov/people/stephanie-clark-public-outreach-specialist/), for sharing our Hyatt space with us and to [Dan Cooke](https://www.linkedin.com/in/cookedan/) and all the [American Physical Society](https://www.aps.org/) staff who make sharing our science through the Global Physics Summits possible. 
+<p>Project Scientist for Astrophysics <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/jbartlett.html">Jennifer Lynn Bartlett</a> was thrilled to spend a week in the mile-high city talking to physicists with a broad range of interests about how they can find what they are looking for in the SciX. As Glen Bennett, Swastika Acharjee, <a href="https://naazshafeer.github.io/">Naaz Shafeer Vemmerath Kulangara</a>, and <a href="https://www.lizkruesi.com/">Liz Kruesi</a> discovered, the SciX <a href="https://www.scixplorer.org/search?p=1&q=collection%3Aphysics&sort=score+desc&sort=date+desc&d=general">physics collection</a> is extensive, easy to navigate, and free; we welcome new researchers and independent scholars. Read more about it in our <a href="../../{% if include.ads %}blog{% else %}scixblog{% endif %}/aps26">blog post</a> and please reach out if you have questions about the ADS to SciX transition or about accessing physics content effectively. Many thanks to the <a href="https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/about/">NASA Physics of the Cosmos</a> team, especially Chief Scientist <a href="https://www.linkedin.com/in/brian-humensky/">Brian Humensky</a> and public outreach specialist <a href="https://science.nasa.gov/people/stephanie-clark-public-outreach-specialist/">Stephanie Clark</a>, for sharing our Hyatt space with us and to <a href="https://www.linkedin.com/in/cookedan/">Dan Cooke</a> and all the <a href="https://www.aps.org/">American Physical Society</a> staff who make sharing our science through the Global Physics Summits possible.</p>
+</div>
 
-* **Retirement of ADS and SciX’s Lead Project Scientist, Dr. Michael J. Kurtz**<br>
-After decades of visionary leadership and unwavering dedication, the Astrophysics Data System (ADS) announces the retirement of our Project Scientist, [Dr. Michael J. Kurtz](../../about/team/team/mkurtz).  Michael joined the CfA in 1982 as a research astronomer in the OIR division, participating in both the CfA Redshift Survey and the Century Survey. Michael has been a cornerstone of the ADS since its inception in the early 1990s, helping transform the way researchers access scientific literature. Under his guidance, ADS was conceived and developed into the sophisticated, multi-faceted discovery engine that powers modern astronomical research today.
+<div style="border: 1px solid #faa954; border-left: 6px solid #faa954; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Retirement of ADS and SciX’s Lead Project Scientist, Dr. Michael J. Kurtz</strong><br>
+<p>After decades of visionary leadership and unwavering dedication, the Astrophysics Data System (ADS) announces the retirement of our Project Scientist, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/mkurtz">Dr. Michael J. Kurtz</a>.  Michael joined the CfA in 1982 as a research astronomer in the OIR division, participating in both the CfA Redshift Survey and the Century Survey. Michael has been a cornerstone of the ADS since its inception in the early 1990s, helping transform the way researchers access scientific literature. Under his guidance, ADS was conceived and developed into the sophisticated, multi-faceted discovery engine that powers modern astronomical research today.</p>
 <img src="{{site.baseurl}}/help/img/whatsnew/WN2604-michael-kurtz.jpg" 
 	 alt="Portrait of Michael J. Kurtz" 
 	 class="img-responsive"
 	 style="float: right; margin: 0 0 1em 1em; width: 300px;">
-	 
-	Beyond his visionary contributions to ADS, Michael is widely respected for his deep understanding of the intersection between information science and astrophysics. His research in bibliometrics and informatics have been widely recognized: in 2000 he received the ISI/ASIST Citation Award for innovation in bibliographic research; in 2001 the AAS awarded him the George Van Biesbroeck Prize for “for the visionary design of the Astrophysics Data System;” in 2018 he was given the [best paper award](https://scixplorer.org/abs/2017JASIS..68..695K/abstract) by the Journal of the Association for Information Science and Technology. He is a fellow of the AAS, APS, and AAAS. While we will miss his insight and historical perspective in our daily operations, his legacy is firmly embedded in ADS and its successor, SciX. We invite you to join us in thanking Michael for his extraordinary service and wishing him a rewarding and peaceful retirement.
+<p>Beyond his visionary contributions to ADS, Michael is widely respected for his deep understanding of the intersection between information science and astrophysics. His research in bibliometrics and informatics have been widely recognized: in 2000 he received the ISI/ASIST Citation Award for innovation in bibliographic research; in 2001 the AAS awarded him the George Van Biesbroeck Prize for “for the visionary design of the Astrophysics Data System;” in 2018 he was given the <a href="https://scixplorer.org/abs/2017JASIS..68..695K/abstract">best paper award</a> by the Journal of the Association for Information Science and Technology. He is a fellow of the AAS, APS, and AAAS. While we will miss his insight and historical perspective in our daily operations, his legacy is firmly embedded in ADS and its successor, SciX. We invite you to join us in thanking Michael for his extraordinary service and wishing him a rewarding and peaceful retirement.</p>
+</div>
 
-* **Do You Use the ADS Historical Observatory Publications?** <br>
+<div style="border: 1px solid #cbbc4c; border-left: 6px solid #cbbc4c; border-radius: 10px; padding: 16px; margin: 20px 0; overflow: auto;">
+<strong style="font-size: 1.2em;">Do You Use the ADS Historical Observatory Publications?</strong><br>
 <img src="{{site.baseurl}}/blog/images/histlit_titles.gif" 
 	 alt="Historical Literature" 
 	 class="img-responsive"
 	 style="float: right; margin: 0 0 1em 1em; width: 300px;">
-If you access the historical observatory publications through the “[Historical scans currently in the ADS](https://adsabs.harvard.edu/historical.html)” page or the “[Observatory/Society Publications Query Page for the Astronomy database](https://adsabs.harvard.edu/bulletins_service.html)” rather than through the primary ADS or SciX search pages, please contact Project Scientist for Astrophysics and occasional historian of astronomy [Jennifer Lynn Bartlett](../../about/team/team/jbartlett) (help@scixplorer.org). We would like your feedback on what these pages provide that our other interfaces do not. As we prepare to complete the [transition from ADS to SciX](../../adstoscix/), we plan to modernize these as well, as they have not been maintained for years.
+<p>If you access the historical observatory publications through the “<a href="https://adsabs.harvard.edu/historical.html">Historical scans currently in the ADS</a>” page or the “<a href="https://adsabs.harvard.edu/bulletins_service.html">Observatory/Society Publications Query Page for the Astronomy database</a>” rather than through the primary ADS or SciX search pages, please contact Project Scientist for Astrophysics and occasional historian of astronomy <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/jbartlett.html">Jennifer Lynn Bartlett</a> (help@scixplorer.org). We would like your feedback on what these pages provide that our other interfaces do not. As we prepare to complete the <a href="../../adstoscix/">transition from ADS to SciX</a>, we plan to modernize these as well, as they have not been maintained for years.</p>
+</div>
 
-Development and data holdings updates as of April 1st:
-  * Website and API Releases
-    + Added Solar Dynamics Observatory to [bibgroups page](../../help/data_faq/Bibgroups)
-    + New blog post: [APS 2026 Recap](../../scixblog/aps26)
-  * Data holdings and pipelines
-    + 594k new records, and 8.65M new citations
-      
+<div style="border: 1px solid #95C949; border-left: 6px solid #95C949; border-radius: 10px; padding: 16px; margin: 20px 0;">
+  <strong style="font-size: 1.2em;">Development and data holdings updates as of April 1:</strong><br>
+
+	<strong>Website and API Releases</strong>
+		<ul>
+        <li>Added Solar Dynamics Observatory to <a href="../../{% if include.ads %}help/data_faq/Bibgroups{% else %}scixhelp/data_faq-scix/Bibgroups{% endif %}">Bibgroups page</a></li>
+        <li>New blog post about our <a href="../../{% if include.ads %}blog{% else %}scixblog{% endif %}/aps26">APS 2026 Recap</a></li>
+      	</ul>
+
+	<strong>Data holdings and pipelines</strong>
+      	<ul>
+        <li>594k new records, and 8.65M new citations.</li>
+      	</ul>
+</div>
+
 <details>
 <summary>Development details</summary>
 <ul>
@@ -445,29 +463,41 @@ Development and data holdings updates as of April 1st:
 </details>
 
 ## March 2026
-Announcements:<br>
+### Announcements:
+
 Spring is in the air in the Northern hemisphere, while our friends in the Southern hemisphere enjoy the transition into cooler autumnal days. However the SciX team have been experiencing four seasons in a day \- whether at SciX HQ in Cambridge MA, or on their conference travels in 50 shades of grey Glasgow\! The team were out there representing SciX at the recent Ocean Sciences Meeting. Read on to find out what they got up to, and look out for us later this month in Denver CO for the APS Conference.
 
-Wherever you are exploring science, stay safe, and we hope to see you soon\!<br>
+Wherever you are exploring science, stay safe, and we hope to see you soon!<br>
 
-* **Ocean Sciences Meeting 2026 Recap**<br>
-	<img src="{{site.baseurl}}/help/img/whatsnew/WN2603-scixatOSM26.png" 
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Ocean Sciences Meeting 2026 Recap</strong><br>
+<img src="{{site.baseurl}}/help/img/whatsnew/WN2603-scixatOSM26.png" 
 	 alt="SciX at OSM26" 
 	 class="img-responsive" 
 	 style="float: right; margin: 0 0 1em 1em; width: 400px;">
-[Jenny Koch](../../scixabout/team/team/jkoch.html) and [Suze Kundu](../../scixabout/team/team/skundu.html) from the SciX team spent last week in glorious Glasgow, UK where the annual Ocean Sciences Meeting took place. We spent four energising days meeting researchers working across land, sea, and sky. [Read our blog post](../../scixblog/osm26) to discover what Claudette Proctor (Stanford) and Kayla Ellerbe (University of Miami) thought of the SciX platform, and find out how interdisciplinary ocean researchers like Bryan Wilson are using NASA’s ECOSTRESS data. While we did run out of our much-loved badges designed by SciX Lead Ambassador [Yueyi Che](../../scixabout/ambassador/team/Che.html), we made our own interdisciplinary connections with attendees. We even had brushes with royalty \- in the form of a princess, and a boat. OSM 2026 was a joyful reminder that ocean science is global, collaborative, and brilliantly interconnected. Find out more in our [OSM write-up](../../scixblog/osm26)\!  
+<p><a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/jkoch.html">Jenny Koch</a> and <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/skundu.html">Suze Kundu</a> from the SciX team spent last week in glorious Glasgow, UK where the annual Ocean Sciences Meeting took place. We spent four energising days meeting researchers working across land, sea, and sky. <a href="../../{% if include.ads %}blog{% else %}scixblog{% endif %}/osm26">Read our blog post</a> to discover what Claudette Proctor (Stanford) and Kayla Ellerbe (University of Miami) thought of the SciX platform, and find out how interdisciplinary ocean researchers like Bryan Wilson are using NASA’s ECOSTRESS data. While we did run out of our much-loved badges designed by SciX Lead Ambassador <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/ambassador/team/Che.html">Yueyi Che</a>, we made our own interdisciplinary connections with attendees. We even had brushes with royalty \- in the form of a princess, and a boat. OSM 2026 was a joyful reminder that ocean science is global, collaborative, and brilliantly interconnected. Find out more in our <a href="../../{% if include.ads %}blog{% else %}scixblog{% endif %}/osm26">OSM write-up</a>!</p>
+</div>
 
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">See You At APS!</strong><br>
+<p>The SciX team is heading to the 2026 meeting of the American Physical Society (APS) <a href="https://summit.aps.org/">Global Physics Summit</a>, March 15-20 in Denver, Colorado! We’re excited to connect with researchers, learn about the latest discoveries, and share how SciX supports the physics community. If you’ll be attending, be sure to say hello to us at the Hyatt Regency Denver alongside our NASA colleagues.</p>
+</div>
 
-* **See You At APS\!**
-The SciX team is heading to the 2026 meeting of the American Physical Society (APS) [Global Physics Summit](https://summit.aps.org/), March 15-20 in Denver, Colorado! We’re excited to connect with researchers, learn about the latest discoveries, and share how SciX supports the physics community. If you’ll be attending, be sure to say hello to us at the Hyatt Regency Denver alongside our NASA colleagues.
+<div style="border: 1px solid #95C949; border-left: 6px solid #95C949; border-radius: 10px; padding: 16px; margin: 20px 0;">
+  <strong style="font-size: 1.2em;">Development and data holdings updates as of March 1:</strong><br>
 
-Development and data holdings updates as of March 1st:
-  * Website and API Releases
-    + Added new [tutorial videos from Youtube](../../scixhelp/)
-    + Posted the [ADSUG 2025 Report](../../about/adsug/adsug/)
-  * Data holdings and pipelines
-    + 4.42M new records, and 6.25M new citations
-    + Over 25k publications from the [NASA Space Life Sciences Library](https://scixplorer.org/search?p=1&q=bibgroup%3ANASA+SLSL&sort=score+desc&sort=date+desc) newly indexed and a bibgroup!
+	<strong>Website and API Releases</strong>
+		<ul>
+        <li>Added new <a href="../../{% if include.ads %}help{% else %}scixhelp{% endif %}">tutorial videos from Youtube</a></li>
+		<li>Posted the <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/adsug/adsug/">ADSUG 2025 Report</a></li>
+      	</ul>
+
+	<strong>Data holdings and pipelines</strong>
+      	<ul>
+        <li>4.42M new records, and 6.25M new citations.</li>
+		<li>Over 25k publications from the <a href="https://scixplorer.org/search?p=1&q=bibgroup%3ANASA+SLSL&sort=score+desc&sort=date+desc">NASA Space Life Sciences Library</a> newly indexed and a bibgroup!</li>
+      	</ul>
+</div>
 
 <details>
 <summary>Development details</summary>
@@ -538,77 +568,95 @@ Development and data holdings updates as of March 1st:
 </details>
 
 ## February 2026
-Announcements:<br>
+### Announcements:
+
 What a start to the year it has been! With the transition from [ADS to SciX](https://scixplorer.org/adstoscix/) in full swing, the SciX team has been meeting with members of the SciX Community at meetings and conferences all over. Our goal is for the astronomy community to experience SciX as early as possible and step up to the next generation of literature search and more by the end of 2026. Read on to find out more about where we have been, where you’ll find us next, and some of the most recent developments for Science Explorer, your one-stop shop for research discovery, innovation, and impact, helping you “keep it 100 on the land, the sea, the sky”.<br>
 
-* **Transition to SciX**<br>
-[Alberto Accomazzi](../../about/team/team/aaccomazzi), Principal Investigator, gave a talk at AAS247 about the [benefits of moving to SciX](https://zenodo.org/records/18463879) now at the NASA hyperwall. If you weren’t there or you missed our resource links last month, check out our [ADS to SciX page](../../adstoscix/) and dive in to our [Quick Start guide](../../adstoscix/quick-start)!
+<div style="border: 1px solid #faa954; border-left: 6px solid #faa954; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Transition to SciX</strong><br>
+<p><a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aaccomazzi.html">Alberto Accomazzi</a>, Principal Investigator, gave a talk at AAS247 about the <a href="https://zenodo.org/records/18463879">benefits of moving to SciX</a> now at the NASA hyperwall. If you weren’t there or you missed our resource links last month, check out our <a href="../../adstoscix/">ADS to SciX page</a> and dive in to our <a href="../../adstoscix/quick-start">Quick Start guide</a>!</p>
 
-	Our current SciX transition outreach efforts are focused on showcasing the platform’s power to support astronomical research. Our expanded collections provide access to greater interdisciplinary papers and resources from other disciplines that can make our work easier, in addition to the increasing number of references and citations connected with our system. Astro researchers who tried SciX during recent conferences were pleased by how similar the interface is to ADS, as well as its new features like smooth resizing for a mobile-friendly experience and one-click “copy and paste” citations.<br>
+<p>Our current SciX transition outreach efforts are focused on showcasing the platform’s power to support astronomical research. Our expanded collections provide access to greater interdisciplinary papers and resources from other disciplines that can make our work easier, in addition to the increasing number of references and citations connected with our system. Astro researchers who tried SciX during recent conferences were pleased by how similar the interface is to ADS, as well as its new features like smooth resizing for a mobile-friendly experience and one-click “copy and paste” citations.</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2602-scixatAAS247.png" 
 	 alt="Transition to SciX" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 550px;">
+</div>
 
-* **Get Involved! Create a Multi-Label Text Classification Dataset with ADS**<br>
-Please help us build an open annotated dataset for multi-label text classification in astrophysics that will further strengthen the discoverability of astronomy research in SciX!. Together, we will create a high-quality training resource to support the development of language models capable of automatically assigning scientific concepts (keywords) to research papers. Such models will enable future information-retrieval tools for astrophysics.
+<div style="border: 1px solid #cbbc4c; border-left: 6px solid #cbbc4c; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">Get Involved! Create a Multi-Label Text Classification Dataset with ADS</strong><br>
+<p>Please help us build an open annotated dataset for multi-label text classification in astrophysics that will further strengthen the discoverability of astronomy research in SciX!. Together, we will create a high-quality training resource to support the development of language models capable of automatically assigning scientific concepts (keywords) to research papers. Such models will enable future information-retrieval tools for astrophysics.</p>
 
-     **Motivation**: Developing robust models for automatic keyword assignment requires carefully annotated training data. Therefore, we will target a representative set of astrophysics research papers and annotate each with the relevant [Unified Astronomy Thesaurus (UAT) concepts](https://astrothesaurus.org/). Once completed, the dataset will be openly released and will support downstream applications, including automated indexing, topic discovery, and improved literature search capabilities within ADS/SciX.
+<p><strong>Motivation</strong>: Developing robust models for automatic keyword assignment requires carefully annotated training data. Therefore, we will target a representative set of astrophysics research papers and annotate each with the relevant <a href="https://astrothesaurus.org/">Unified Astronomy Thesaurus (UAT) concepts</a>. Once completed, the dataset will be openly released and will support downstream applications, including automated indexing, topic discovery, and improved literature search capabilities within ADS/SciX.</p>
 
-     **What Participation Involves**: You should be willing to read 5–10 full papers and assign the UAT concepts that best describe their scientific content, following our annotation guidelines. In addition, you will highlight the text fragments that justify each selected keyword. The selections will help with explainability and model interpretability. Finally, you may be asked to participate in a virtual discussion to finalize keyword selection when annotators disagree on their selections. 
+<p><strong>What Participation Involves</strong>: You should be willing to read 5–10 full papers and assign the UAT concepts that best describe their scientific content, following our annotation guidelines. In addition, you will highlight the text fragments that justify each selected keyword. The selections will help with explainability and model interpretability. Finally, you may be asked to participate in a virtual discussion to finalize keyword selection when annotators disagree on their selections. </p>
 
-     **How to Participate**: Please indicate your interest [using this short form](https://docs.google.com/forms/d/e/1FAIpQLSduV6qJ-_4QCYnFW4dc04UAQ4yCUgN585pwpRt6-GmoTKEErA/viewform?usp=sharing&ouid=113114061719386419121). We will follow up to provide the annotation guidelines, example annotations, and access to the annotation interface. Please contact [Atilla Alkan](../../about/team/team/aalkan) with any questions. We hope you will collaborate with us to build a shared, reusable dataset to benefit the entire astrophysics community.<br>
+<p><strong>How to Participate</strong>: Please indicate your interest <a href="https://docs.google.com/forms/d/e/1FAIpQLSduV6qJ-_4QCYnFW4dc04UAQ4yCUgN585pwpRt6-GmoTKEErA/viewform?usp=sharing&ouid=113114061719386419121">using this short form</a>. We will follow up to provide the annotation guidelines, example annotations, and access to the annotation interface. Please contact <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aalkan.html">Atilla Alkan</a> with any questions. We hope you will collaborate with us to build a shared, reusable dataset to benefit the entire astrophysics community.</p>
 	 <img src="{{site.baseurl}}/help/img/whatsnew/WN2602-UAT.png" 
 	 alt="Unified Astronomy Thesaurus" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 550px;">
+</div>
 
-* **AAS247 Round-Up**<br>
-SciX team members, [Alberto Accomazzi](../../about/team/team/aaccomazzi), [Atilla Alkan](../../about/team/team/aalkan), [Carolyn Grant](../../about/team/team/csterngrant), [Edwin Henneken](../../about/team/team/ehenneken), [Jennifer Lynn Bartlett](../../about/team/team/jbartlett), and [Mugdha Polimera](../../about/team/team/mpolimera), enjoyed meeting so many new users and old friends at the [247th meeting of the American Astronomical Society](https://aas.org/meetings/aas247) held in Phoenix, AZ during the first full week of January.
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">AAS247 Round-Up</strong><br>
+<p>SciX team members, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aaccomazzi.html">Alberto Accomazzi</a>, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/aalkan.html">Atilla Alkan</a>, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/csterngrant.html">Carolyn Grant</a>, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/ehenneken.html">Edwin Henneken</a>, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/jbartlett.html">Jennifer Lynn Bartlett</a>, and <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/mpolimera.html">Mugdha Polimera</a>, enjoyed meeting so many new users and old friends at the <a href="https://aas.org/meetings/aas247">247th meeting of the American Astronomical Society</a> held in Phoenix, AZ during the first full week of January.</p>
 
-	[Olivia “Harper” Wilkins](../../scixabout/ambassador/team/Wilkins.html), Dickinson College chemistry professor and [SciX Lead Ambassador](../../scixabout/ambassador/), co-led our workshops on Sunday afternoon. Everyone contributed to staffing the booth, which featured stickers with artwork of [Yueyi Che](../../scixabout/ambassador/team/Che.html), PhD student at UC Irvine and SciX Lead Ambassador.
+<p><a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/ambassador/team/Wilkins.html">Olivia “Harper” Wilkins</a>, Dickinson College chemistry professor and <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/ambassador/">SciX Lead Ambassador</a>, co-led our workshops on Sunday afternoon. Everyone contributed to staffing the booth, which featured stickers with artwork of <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/ambassador/team/Che.html">Yueyi Che</a>, PhD student at UC Irvine and SciX Lead Ambassador.</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2602-AAS247booth.png" 
 	    alt="SciX at AAS247" 
 	    class="img-responsive" 
 	    style="float: right; margin: 0 0 1em 1em; width: 400px;">
 
-	Mugdha, back-end developer, presented “[The Future of Scientific Discovery: Responsible AI/ML Enhancements in ADS and SciX](https://aas247-aas.ipostersessions.com/default.aspx?s=3D-92-59-ED-DD-42-F3-5B-54-C6-B0-0C-84-63-14-11)” describing how we enrich our collections and enable you to search for papers, datasets, and software in more nuanced ways. 
+<p>Mugdha, back-end developer, presented “<a href="https://aas247-aas.ipostersessions.com/default.aspx?s=3D-92-59-ED-DD-42-F3-5B-54-C6-B0-0C-84-63-14-11">The Future of Scientific Discovery: Responsible AI/ML Enhancements in ADS and SciX</a>” describing how we enrich our collections and enable you to search for papers, datasets, and software in more nuanced ways.</p>
 
-	Atilla, AI/ML postdoctoral researcher, presented “[Concept Classification Across Scientific Domains: Adapting to the Unified Astronomy Thesaurus’s Expansion into Heliophysics](https://aas247-aas.ipostersessions.com/default.aspx?s=EF-89-D3-93-4F-06-A7-97-BF-52-EA-77-96-6B-99-57)” describing our approach to automated classification of scientific records to accelerate discovery and improve search.    
+<p>Atilla, AI/ML postdoctoral researcher, presented “<a href="https://aas247-aas.ipostersessions.com/default.aspx?s=EF-89-D3-93-4F-06-A7-97-BF-52-EA-77-96-6B-99-57">Concept Classification Across Scientific Domains: Adapting to the Unified Astronomy Thesaurus’s Expansion into Heliophysics</a>” describing our approach to automated classification of scientific records to accelerate discovery and improve search.</p>
 
-	Jennifer, project scientist for astrophysics, presented “[Science Explorer: Open Science Discovery Engine](https://aas247-aas.ipostersessions.com/default.aspx?s=88-2C-FD-E4-53-A8-DF-4E-9F-49-AE-DE-2B-A4-67-D5&guestview=true)” describing a Library Carpentry course for new SciX users. She also presented “[Science Explorer and StarGlass: the Future of the Historical Sky](https://aas247-aas.ipostersessions.com/default.aspx?s=79-56-95-F6-2A-91-DB-3F-27-E0-A0-67-14-C2-69-4D&guestview=true)” demonstrating the linking of astronomical photographic plates (observations) to articles and logbooks. In addition, she organized splinter sessions for the [Working Group on the Preservation of Astronomical Heritage](https://aas.org/comms/working-group-preservation-astronomical-heritage-wgpah) and the [Working Group on the Unified Astronomy Thesaurus](https://aas.org/comms/working-group-unified-astronomy-thesaurus-wguat) (UAT). SciX continues the ADS tradition of making the [historical literature of astronomy](https://adsabs.harvard.edu/historical.html) accessible to scientists, historians, and educators. The [UAT](https://astrothesaurus.org/) is our preferred vocabulary for astronomy concepts and keywords; improving its content and its use will improve searches for astronomy topics and help make connections among similar ideas in other disciplines. 
+<p>Jennifer, project scientist for astrophysics, presented “<a href="https://aas247-aas.ipostersessions.com/default.aspx?s=88-2C-FD-E4-53-A8-DF-4E-9F-49-AE-DE-2B-A4-67-D5&guestview=true">Science Explorer: Open Science Discovery Engine</a>” describing a Library Carpentry course for new SciX users. She also presented “<a href="https://aas247-aas.ipostersessions.com/default.aspx?s=79-56-95-F6-2A-91-DB-3F-27-E0-A0-67-14-C2-69-4D&guestview=true">Science Explorer and StarGlass: the Future of the Historical Sky</a>” demonstrating the linking of astronomical photographic plates (observations) to articles and logbooks. In addition, she organized splinter sessions for the <a href="https://aas.org/comms/working-group-preservation-astronomical-heritage-wgpah">Working Group on the Preservation of Astronomical Heritage</a> and the <a href="https://aas.org/comms/working-group-unified-astronomy-thesaurus-wguat">Working Group on the Unified Astronomy Thesaurus</a> (UAT). SciX continues the ADS tradition of making the <a href="https://adsabs.harvard.edu/historical.html">historical literature of astronomy</a> accessible to scientists, historians, and educators. The <a href="https://astrothesaurus.org/">UAT</a> is our preferred vocabulary for astronomy concepts and keywords; improving its content and its use will improve searches for astronomy topics and help make connections among similar ideas in other disciplines.</p>
+</div>
 
-* **AMS 2026 Round-Up**<br>
-Team members [Kelly Lockhart](../../about/team/team/klockhart), [Daniel Chivvis](../../about/team/team/dchivvis), and [Anna Kelbert](../../about/team/team/akelbert) joined thousands of others in braving the thing they love most - BIG WEATHER - to attend the American Meteorological Society conference in Houston, Texas, at the end of January. Anna, the Project Scientist for Earth Science at SciX, gave a talk titled “Discovering Space Weather Resources in Science Explorer using Keyword Enrichments” at a session focused on the current state and future of space weather research.
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">AMS 2026 Round-Up</strong><br>
+<p>Team members <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/klockhart.html">Kelly Lockhart</a>, <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/dchivvis.html">Daniel Chivvis</a>, and <a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/akelbert.html">Anna Kelbert</a> joined thousands of others in braving the thing they love most - BIG WEATHER - to attend the American Meteorological Society conference in Houston, Texas, at the end of January. Anna, the Project Scientist for Earth Science at SciX, gave a talk titled “Discovering Space Weather Resources in Science Explorer using Keyword Enrichments” at a session focused on the current state and future of space weather research.</p>
 
-	We loved meeting you all and hearing about the unique challenges that you are helping overcome. The AMS meeting is a real opportunity to see how interdisciplinary research leads to impactful realities. From atmospheric aerosols to Zonda winds, SciX has your research A-Z covered.<br>
+<p>We loved meeting you all and hearing about the unique challenges that you are helping overcome. The AMS meeting is a real opportunity to see how interdisciplinary research leads to impactful realities. From atmospheric aerosols to Zonda winds, SciX has your research A-Z covered.</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2602-scixatAMS26.png" 
 	 alt="SciX at AMS 2026" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 550px;">
-	 
-* **AGU OSM - February 2026, Glasgow UK**<br>
-If you missed us at AGU, AAS, AMS, or any other conference with a three-letter acronym, don’t fear because we’ll soon be at more conferences with three-letter acronyms! We just can’t get enough of interacting with our community. We’ll be attending the [Ocean Sciences Meeting](https://www.agu.org/ocean-sciences-meeting) in Glasgow, UK at the end of February. The team will be on hand to answer any questions you might have about how you can use this free and open platform to explore the kind of interdisciplinary research that lurks in the depths of the sea. We’ll also be bringing some of our cute swag, and if you can successfully use the clues to Guess the Science Explorer, you’ll also be in with a chance of winning some very exclusive SciX merchandise! **Swing by Booth Number 85**. We look forward to seeing you there - as they say in Scottish Gaelic, <i>tha mi air bhioran</i>!<br>
+</div>
+
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">AGU OSM - February 2026, Glasgow UK</strong><br>
+<p>If you missed us at AGU, AAS, AMS, or any other conference with a three-letter acronym, don’t fear because we’ll soon be at more conferences with three-letter acronyms! We just can’t get enough of interacting with our community. We’ll be attending the <a href="https://www.agu.org/ocean-sciences-meeting">Ocean Sciences Meeting</a> in Glasgow, UK at the end of February. The team will be on hand to answer any questions you might have about how you can use this free and open platform to explore the kind of interdisciplinary research that lurks in the depths of the sea. We’ll also be bringing some of our cute swag, and if you can successfully use the clues to Guess the Science Explorer, you’ll also be in with a chance of winning some very exclusive SciX merchandise! <b>Swing by Booth Number 85</b>. We look forward to seeing you there - as they say in Scottish Gaelic, <i>tha mi air bhioran</i>!</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2602-aguosm26.png" 
 	 alt="SciX at AGU OSM26" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 550px;">
+</div>
 
-* **By Scientists, For Scientists**<br>
-[Mugdha Polimera](../../about/team/team/mpolimera), SciX back-end developer and astrophysicist, shone in her dual roles at [AAS247](https://aas.org/meetings/aas247) with her presentation on “[From Dwarfs to Giants: A Complete Census of AGN Across the RESOLVE and ECO Surveys](https://aas247-aas.ipostersessions.com/Default.aspx?s=3B-7A-2A-3E-92-AA-2A-F2-AA-5D-76-7E-CB-24-74-13).” She and her co-authors show the demographics of active galactic nuclei (AGN), i.e., actively accreting supermassive black holes, and their hosts shift dramatically with galaxy mass.
+<div style="border: 1px solid #cbbc4c; border-left: 6px solid #cbbc4c; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">By Scientists, For Scientists</strong><br>
+<p><a href="../../{% if include.ads %}about{% else %}scixabout{% endif %}/team/team/mpolimera.html">Mugdha Polimera</a>, SciX back-end developer and astrophysicist, shone in her dual roles at <a href="https://aas.org/meetings/aas247">AAS247</a> with her presentation on “<a href="https://aas247-aas.ipostersessions.com/Default.aspx?s=3B-7A-2A-3E-92-AA-2A-F2-AA-5D-76-7E-CB-24-74-13">From Dwarfs to Giants: A Complete Census of AGN Across the RESOLVE and ECO Surveys</a>.” She and her co-authors show the demographics of active galactic nuclei (AGN), i.e., actively accreting supermassive black holes, and their hosts shift dramatically with galaxy mass.</p>
 
-	The results show that AGN are more common in dwarf galaxies than most previous surveys suggested, but also reveal a sharp increase in AGN frequency in transitional galaxies around the same mass as the Milky Way. They argue the transition reflects how the cold gas accretion in the host galaxies and the dark matter mass of the group haloes could regulate black hole growth and star formation.
+<p>The results show that AGN are more common in dwarf galaxies than most previous surveys suggested, but also reveal a sharp increase in AGN frequency in transitional galaxies around the same mass as the Milky Way. They argue the transition reflects how the cold gas accretion in the host galaxies and the dark matter mass of the group haloes could regulate black hole growth and star formation.</p>
 
-	Check out the [January 8 press conference](https://www.youtube.com/live/sFyIBkNlk5A?si=TJ2dIovfwz0Dm8h0&t=805) and [press release](https://www.cfa.harvard.edu/news/scientists-find-more-active-black-holes-dwarf-and-milky-way-sized-galaxies-cutting-through-glare) featuring her work!<br>
+<p>Check out the <a href="https://www.youtube.com/live/sFyIBkNlk5A?si=TJ2dIovfwz0Dm8h0&t=805">January 8 press conference</a> and <a href="https://www.cfa.harvard.edu/news/scientists-find-more-active-black-holes-dwarf-and-milky-way-sized-galaxies-cutting-through-glare">press release</a> featuring her work!</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2602-MPAAS247.png" 
 	 alt="Mugdha Polimera at AAS247" 
 	 class="img-responsive" 
 	 style="display: block; margin: 1em auto; width: 550px;">
-	 
-Development and data holdings updates as of February 1st:
-  * Data holdings and pipelines
-    + 128k new records, and 2.48M new citations
-    + Over 4300 [NASA Earth Science proposals](https://scixplorer.org/search?p=1&q=doctype%3Aproposal+pub%3A%22NASA%22+collection%3Aearthscience&sort=score+desc&sort=date+desc&d=general) newly indexed
+</div>
+
+<div style="border: 1px solid #95C949; border-left: 6px solid #95C949; border-radius: 10px; padding: 16px; margin: 20px 0;">
+  <strong style="font-size: 1.2em;">Development and data holdings updates as of February 1:</strong><br>
+
+	<strong>Data holdings and pipelines</strong>
+      	<ul>
+        <li>128k new records, and 2.48M new citations.</li>
+		<li>Over 4300 <a href="https://scixplorer.org/search?p=1&q=doctype%3Aproposal+pub%3A%22NASA%22+collection%3Aearthscience&sort=score+desc&sort=date+desc&d=general">NASA Earth Science proposals</a> newly indexed</li>
+      	</ul>
+</div>
 
 <details>
 <summary>Development details</summary>
@@ -677,27 +725,37 @@ Development and data holdings updates as of February 1st:
 </details>
 
 ## January 2026
-Announcements:<br>
+### Announcements:
 
-<i>Happy New Year!</i><br>
-<i>We are thrilled to bring you the first SciX Newsletter of the year. In last month's newsletter, we reflected on a year of evolution. As we embark on a brand new year, and with our future secured thanks to some recent funding-related good news, our focus and commitment to ensuring a seamless [transition from ADS to SciX](https://scixplorer.org/adstoscix/) and a smooth onboarding for new SciX users remain our main priorities.</i>
+Happy New Year!<br>
+We are thrilled to bring you the first SciX Newsletter of the year. In last month's newsletter, we reflected on a year of evolution. As we embark on a brand new year, and with our future secured thanks to some recent funding-related good news, our focus and commitment to ensuring a seamless [transition from ADS to SciX](https://scixplorer.org/adstoscix/) and a smooth onboarding for new SciX users remain our main priorities.
 
-<i>With that in mind, as always, if you have any questions, please don’t hesitate to contact us by email at <b>help@scixplorer.org</b>, or by using [this feedback form](https://scixplorer.org/feedback/general). Thanks for being a valuable and valued member of our community.</i><br>
+With that in mind, as always, if you have any questions, please don’t hesitate to contact us by email at <b>help@scixplorer.org</b>, or by using [this feedback form](https://scixplorer.org/feedback/general). Thanks for being a valuable and valued member of our community.<br>
 
-* **SciX at AGU25**<br>
-	We had a great time meeting SciX-curious attendees at #AGU25 last month! From existing ADS users that have already made the switch, to people brand new to our platform, we were excited by the research community’s excitement for the platform. We are always keen to showcase our user stories, so if you’ve been using SciX to help accelerate your research discovery, innovation and impact and want to tell your story via a short video or a post on our blog, [get in touch](https://scixplorer.org/feedback/general).<br>
-
-	Whether you saw one of our or our Ambassador’s panel discussions, posters, NASA hyperwall talks, or whether you managed to grab one of our hundreds of SciX badges before they ran out on the last day, thanks for engaging with us. If you missed us, look out for us at #AAS247. We’ll also be attending AMS and OSM in the next couple of months. If you’d like to arrange a chat with one of our team to find out more about SciX, please [let us know](https://scixplorer.org/feedback/general).<br>
+<div style="border: 1px solid #60c3b2; border-left: 6px solid #60c3b2; border-radius: 10px; padding: 16px; margin: 20px 0; ">
+<strong style="font-size: 1.2em;">SciX at AGU25</strong><br>
+<p>We had a great time meeting SciX-curious attendees at #AGU25 last month! From existing ADS users that have already made the switch, to people brand new to our platform, we were excited by the research community’s excitement for the platform. We are always keen to showcase our user stories, so if you’ve been using SciX to help accelerate your research discovery, innovation and impact and want to tell your story via a short video or a post on our blog, <a href="https://scixplorer.org/feedback/general">get in touch</a>.</p>
+ 
+<p>Whether you saw one of our or our Ambassador’s panel discussions, posters, NASA hyperwall talks, or whether you managed to grab one of our hundreds of SciX badges before they ran out on the last day, thanks for engaging with us. If you missed us, look out for us at #AAS247. We’ll also be attending AMS and OSM in the next couple of months. If you’d like to arrange a chat with one of our team to find out more about SciX, please <a href="https://scixplorer.org/feedback/general">let us know</a>.</p>
 	<img src="{{site.baseurl}}/help/img/whatsnew/WN2601-scixatagu25.png" 
 	 alt="SciX at AGU25" 
 	 class="img-responsive" 
-	 style="display: block; margin: 1em auto; width: 400px;">
+	 style="display: block; margin: 1em auto; width: 700px;">
+</div>
 
-Development and data holdings updates as of January 1st:
-  * Website and API
-    + **[new]** [ADS to SciX quick start guide](https://scixplorer.org/adstoscix/)
-  * Data holdings and pipelines
-    + 168k new records, and 3.86M new citations
+<div style="border: 1px solid #95C949; border-left: 6px solid #95C949; border-radius: 10px; padding: 16px; margin: 20px 0;">
+  <strong style="font-size: 1.2em;">Development and data holdings updates as of January 1:</strong><br>
+
+	<strong>Website and API Releases</strong>
+		<ul>
+        <li>New <a href="../../adstoscix">ADS to SciX quick start guide</a></li>
+      	</ul>
+
+	<strong>Data holdings and pipelines</strong>
+      	<ul>
+        <li>168k new records, and 3.86M new citations.</li>
+      	</ul>
+</div>
 
 <details>
 <summary>Development details</summary>
@@ -732,9 +790,9 @@ Development and data holdings updates as of January 1st:
 </details>
 
 ## December 2025
-Announcements:<br>
+### Announcements:
 
-<i>We can't believe it's already December. As we look back on another year of supporting research, we want to take a moment to thank you, our loyal user community. ADS and SciX are made by scientists, for scientists, and we couldn't do any of this without your feedback. With all that being said, this month's newsletter contains some news about the future of our platforms. We want to assure all of our users that we are committed to working through these impending changes with you. As such, if you have any questions, please don't hesitate to contact us by email at <b><a href="mailto:help@scixplorer.org">help@scixplorer.org</a></b>, or by using [this feedback form](https://scixplorer.org/feedback/general). Thanks for being a continued part of our community. Read on to find out more.</i><br>
+We can't believe it's already December. As we look back on another year of supporting research, we want to take a moment to thank you, our loyal user community. ADS and SciX are made by scientists, for scientists, and we couldn't do any of this without your feedback. With all that being said, this month's newsletter contains some news about the future of our platforms. We want to assure all of our users that we are committed to working through these impending changes with you. As such, if you have any questions, please don't hesitate to contact us by email at <b><a href="mailto:help@scixplorer.org">help@scixplorer.org</a></b>, or by using [this feedback form](https://scixplorer.org/feedback/general). Thanks for being a continued part of our community. Read on to find out more.<br>
 
 * **ADS is Evolving in 2026**<br>
 	2026 will be a transition year for ADS users, as the astronomy community moves to the astrophysics version of SciX. Our development team is working to ensure that astronomers have as [smooth a transition as possible](https://scixplorer.org/adstoscix/). In all of this, we remain committed to serving the astronomy community.<br>
