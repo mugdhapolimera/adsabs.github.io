@@ -11,8 +11,6 @@ switches between them with pills.
 {% if include.ads %}{% assign abs_root = site.ads_base_url %}{% assign team_page = '/about/team/' %}{% else %}{% assign abs_root = site.scix_base_url %}{% assign team_page = '/scixabout/team/' %}{% endif %}
 {% assign team_page = team_page | prepend: site.baseurl %}
 {% assign bib_sections = site.data.bibliography.sections %}
-{% assign orcid_query = "" %}{% for member in site.data.team.team_members %}{% if member.orcid %}{% if orcid_query != "" %}{% assign orcid_query = orcid_query | append: " OR " %}{% endif %}{% assign orcid_query = orcid_query | append: '"' | append: member.orcid | append: '"' %}{% endif %}{% endfor %}
-{% assign orcid_query = orcid_query | prepend: "orcid:(" | append: ")" %}
 {% assign groups = site.data.bibliography_groups %}
 <div class="bib-page">
 
@@ -40,7 +38,7 @@ switches between them with pills.
   {% if g.method %}
     <details class="bib-method">
       <summary>How is this list collected?</summary>
-      <div class="bib-method-body">{{ g.method | replace: "ROOT_URL", abs_root | replace: "TEAM_URL", team_page | replace: "ORCID_QUERY", orcid_query | markdownify }}</div>
+      <div class="bib-method-body">{{ g.method | replace: "ROOT_URL", abs_root | replace: "TEAM_URL", team_page | markdownify }}</div>
     </details>
   {% endif %}
   {% if g_ids.size > 1 %}
